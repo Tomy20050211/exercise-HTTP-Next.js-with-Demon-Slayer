@@ -1,0 +1,82 @@
+import { Personaje } from "../model/personaje.model";
+
+//Array de mis personajes de Demon Slayer
+export const personajes: Personaje[] = [
+  {
+    id: 1,
+    nombre: "Tanjiro Kamado",
+    rol: "Cazador",
+    respiracion: "Agua",
+    activo: true,
+    urlImage: "/img/tanjiro.jpg",
+  },
+  {
+    id: 2,
+    nombre: "Nezuko Kamado",
+    rol: "Lunas demoniacas",
+    activo: true,
+    urlImage: "/img/nezuko.jpg",
+  },
+  {
+    id: 3,
+    nombre: "Kyojuro Rengoku",
+    rol: "Pilar",
+    respiracion: "Llama",
+    activo: false,
+    urlImage: "/img/rengoku.jpg",
+  },
+  {
+    id: 4,
+    nombre: "Giyu Tomioka",
+    rol: "Pilar",
+    respiracion: "Agua",
+    activo: true,
+    urlImage: "/img/tomioka.jpg",
+  },
+  {
+    id: 5,
+    nombre: "Shinobu Kocho",
+    rol: "Pilar",
+    respiracion: "Insecto",
+    activo: false,
+    urlImage: "/img/shinobu.jpg",
+  },
+  {
+    id: 6,
+    nombre: "Tengen Uzui",
+    rol: "Ex pilar",
+    respiracion: "Sonido",
+    activo: true,
+    urlImage: "/img/uzui.jpg",
+  },
+  {
+    id: 7,
+    nombre: "Zenitsu Agatsuma",
+    rol: "Cazador",
+    respiracion: "Rayo",
+    activo: true,
+    urlImage: "/img/zenitsu.jpg",
+  },
+  {
+    id: 8,
+    nombre: "Inosuke Hashibira",
+    rol: "Cazador",
+    respiracion: "Bestia",
+    activo: true,
+    urlImage: "/img/inozuke.jpg",
+  },
+  {
+    id: 9,
+    nombre: "Muzan Kibutsuji",
+    rol: "Rey demonio",
+    activo: true,
+    urlImage: "/img/muzan.jpg",
+  },
+  {
+    id: 10,
+    nombre: "Kokushibo",
+    rol: "Lunas demoniacas",
+    activo: true,
+    urlImage: "/img/kokushibo.jpg",
+  },
+];
